@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #000;
+    background-image: url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main.section {
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    /* height: 500px; */
+    background-color: pink;
+    text-align: center;
+}
+div.left-img {
+    background-color: aqua;
+}
+
+div.right-form {
+    background-color: blanchedalmond;
+}
+div.iksas {
+    background-color: violet;
+}
+form.sign-up {
+    background-color: aquamarine;
+}
+div.right-footer {
+    background-color: yellowgreen;
+}
